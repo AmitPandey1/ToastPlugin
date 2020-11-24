@@ -27,8 +27,7 @@ public class AppICEPlugin extends CordovaPlugin {
     private void coolMethod(String message, CallbackContext callbackContext) {
         try{
             // Create the toast
-            Toast toast = Toast.makeText(cordova.getActivity(), message,
-            DURATION_LONG.equals(duration) ? Toast.LENGTH_LONG : Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(cordova.getActivity(), message, Toast.LENGTH_LONG);
             // Display toast
             toast.show();
             callbackContext.success(message);
