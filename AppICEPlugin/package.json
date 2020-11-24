@@ -1,0 +1,17 @@
+{
+  "name": "com.appice.cordova",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "com.appice.cordova",
+    "platforms": [
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "amit pandey",
+  "license": "MIT"
+}
